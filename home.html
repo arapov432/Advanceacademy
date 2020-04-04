@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  
+  </head>
+  <body>
+<header> <h1>Header is here</h1></header>
+<nav><ul>
+      <li><a href='home.html'>Home</a></li>
+      <li><a href='business.html'>Business</a></li>
+      <li><a href='contact.html'>Contact</a></li>
+      <li><a href='index.html'>Index</a></li>
+    </ul></nav>
+<section>
+  <aside> <h1>Home Pages</h1>
+      
+ <div class='orders'>
+<form action='#'>
+  <label for='usr'>User name:</label>
+<input type='text' id='usr' name='username'>
+ <label for='pass'>Password:</label>
+<input type='password' id='pass' name='password'>
+  <label for='fname'>First Name:</label>
+  <input type="text" id='fname' name='firstname'/><br>
+  <label for='lname'>Last Name: </label>
+  <input type='text' id='lname' name='lastname'/><br>
+  <label for='email'>Email:</label>
+  <input type='email' id='email' name='emails'><br>
+  <input type='submit'>
+  <input type="reset">
+</form>
+ </div>
+<div class='orders'>
+    <dl> 
+      <dt>Big Companies</dt>
+      <dd> - Advance Academy</dd>
+      <dd> - Apple Inc</dd>
+      <dd> - American inc</dd>
+      <dt>Small Companies</dt>
+      <dd> - Google inc</dd>
+      <dd> - Walmart</dd>
+      <dd> -Targets</dd>
+    </dl>
+</div>
+     </aside>
+     <article>
+       <form action='/about.html'>
+       <label for='browsers'>Browsers will show up</label><br>
+       <input list='browsers' name='browser'/><br>
+       <datalist id='browsers'><option value='Chrome'></option>
+       <option value='Mozilla'></option>
+       <option value='internet explore'></option>
+       <option value='Safari'></option><br>
+       
+       </datalist>
+       <input type='submit' value='Submit'>
+       </form>
+       
+    <table>
+      <tr><th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+      </tr>
+      <tr>
+        <td>Apple inc</td>
+        <td>Azamat Arapov</td>
+        <td>Kyrgyzstan</td>
+        </tr>
+        <tr>
+        <td>Google inc</td>
+        <td>Azamat Arapov</td>
+        <td>Kyrgyzstan</td>
+        </tr>
+        <tr>
+        <td>Apple inc</td>
+        <td>Azamat Arapov</td>
+        <td>Kyrgyzstan</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <table style='width:100%;'>
+      <tr>
+        <th>Contact</th>
+        <th colspan='2'>Telephone</th>
+      </tr>
+      <tr>
+        <td>Tom Jerry</td>
+        <td> 0555999998</td>
+        <td> 0700999990</td>
+      </tr>
+      
+      <tr>
+        <td>Tom Jerry</td>
+        <td> 0555999998</td>
+        <td> 0700999990</td>
+      </tr>
+    </table>
+    <br>
+    <br>
+    <form action='home.html' oninput='x.value=parseInt(a.value)+parseInt(b.value)'>
+      0<input type='range' id='a' name='a' value='50'>
+         100+
+         <input type='number' id='b' name='b' value='50'>
+         =
+         <output name='x' for='a b'><br><br>
+           
+      <input type='checkbox' id='cars' name='car' value='toyota'>
+       <label for='cars'>You can have ride by car</label>
+       <input type='checkbox' id='cars' name='car' value='toyota'>
+       <label for='cars'>You can have ride by car</label><br>
+        <input type='checkbox' id='bus' name='car' value='toyota'>
+       <label for='bus'>You can have ride by bus</label><br>
+        <input type='checkbox' id='train' name='car' value='toyota'>
+       <label for='train'>You can have ride by train</label><br>
+       <label for='favcolor'>Choose colors</label>
+       <input type="color" id='favcolor' name='favcolor' value='Colors'>
+       <input type='submit'>
+       </form><br><br>
+    <picture>
+      <source media='(min-width: 650px)' srcset='image1.jpg'/>
+      <source media='(min-width: 465px)' srcset='image2'/>
+      <img src='image3.jpg' alt='selfi photo' style='width:400px; height:400px;'/>
+      </picture>
+      </article>
+     
+</section>
+    <footer><h1>Footer</h1></footer>
+  </body>
+</html>

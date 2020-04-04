@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About us</title>
+<style>
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header{
+  background-color: #777;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  overflow: hidden;
+}
+nav{
+  width: 20%;
+   border: 2px solid black;
+  float:left;
+  padding: 20px;
+}
+article{
+  background-color: #f1f1f1;
+  width: 60%;
+  float: left;
+  padding: 20px;
+}
+section:after{
+  content:"";
+  display: table;
+  clear: both;
+}
+footer{
+    background-color: #777;
+  text-align: center;
+    padding: 30px;
+  color: white;
+}
+nav ul{
+  list-style-type: none;
+  padding:0px;
+ margin:0px;
+  overflow: hidden;
+
+}
+#sidebar{
+ background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+nav ul li{
+  float: left;
+ margin-top: 5px;
+ background-color: darkgreen;
+}
+nav ul a{
+  padding: 15px 20px;
+  display:block;
+  width:200px;
+  color: white;
+  text-decoration: none;
+  text-align:left;
+}
+ nav ul li a:hover{
+  background-color: red;
+}
+#topmenu{
+  width: 100%;
+  background-color: black;
+  padding: 0px;
+  margin:0px;
+  list-style-type: none;
+  overflow: auto;
+}
+#topmenu li{
+float: left;
+
+}
+#topmenu li .b{
+
+   padding: 15px 25px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  text-align:center;
+}
+ .b:hover{
+  background-color: red;
+}
+@media(max-width:600px){
+  header, footer, nav, article{
+    max-width:100%;
+    max-height:100%;
+  }
+}
+</style>
+</head>
+
+<body>
+<header> <h1>Header is goes here</h1>
+<ul id='topmenu'>
+<li><a class='b' href='home.html'>Home</a></li>
+<li><a class='b' href='business.html'>Business</a></li>
+<li><a class='b' href='index.html.html'>About us</a></li>
+<li><a class='b' href='contact.html'>Contact</a></li>
+</ul></header>
+<section>
+
+<nav><ul>
+<li><a href='home.html'>Home</a></li>
+<li><a href='business.html'>Business</a></li>
+<li><a href='index.html.html'>About us</a></li>
+<li><a href='contact.html'>Contact</a></li>
+</ul></nav>
+<article> <h1>This is an articles</h1>
+<form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+  <small>Format: 123-45-678</small><br><br>
+<label for="appt">Select a time:</label>
+  <input type="time" id="appt" name="appt">
+   <label for="homepage">Add your homepage:</label>
+  <input type="url" id="homepage" name="homepage">
+   <label for="week">Select a week:</label>
+  <input type="week" id="week" name="week">
+  <input type="submit" value="Submit">
+</form>
+ <div class='container'>
+    <img src='image1.jpg' alt='Italy' height='auto' width='100%'>
+       </div>
+<p>We are one of the world’s leading private multi-asset alternative investment firms with approximately $105 billion in assets under management that creates lasting impact for our investors, teams, businesses and the communities in which we live. Founded in 1984, we pioneered a consulting-based approach to private equity investing, partnering closely with management teams to offer the insights that challenge conventional thinking, build great businesses and improve operations. Over time, we have organically expanded this approach across asset classes to build one of the strongest alternative asset platforms in the world. We are one of the world’s leading private multi-asset alternative investment firms with approximately $105 billion in assets under management that creates lasting impact for our investors, teams, businesses and the communities in which we live. Founded in 1984, we pioneered a consulting-based approach to private equity investing, partnering closely with management teams to offer the insights that challenge conventional thinking, build great businesses and improve operations. Over time, we have organically expanded this approach across asset classes to build one of the strongest alternative asset platforms in the world.</p>
+</article>
+<div id='sidebar'><p>Founded in 1984, we pioneered a consulting-based approach to private equity investing, partnering closely with management teams to offer the insights that challenge conventional thinking, build great businesses and improve operations. Over time, we have organically expanded this approach across asset classes to build one of the strongest alternative asset platforms in the world.</p></div>
+</section>
+<footer><h1>Here's footer</h1></footer>
+</body>
+</html>
